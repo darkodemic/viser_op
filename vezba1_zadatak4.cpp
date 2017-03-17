@@ -3,6 +3,7 @@ Vezba: 1
 Zadatak: 4
 Dev: Darko Demic
 Built using: GCC 7.0 on Arch Linux
+Standard: C++ 17
 */
 
 #include <stdio.h>
