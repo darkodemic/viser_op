@@ -25,4 +25,5 @@ int main(int argc, const char *argv[]) {
     
     printf("MAX: %d\nMIN: %d",max,min);
     
+    return 0;
 }
