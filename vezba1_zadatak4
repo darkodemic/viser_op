@@ -13,4 +13,5 @@ int main(int argc, const char *argv[]) {
     printf("Line two\n");
     printf("Line three\n");
     printf("Line four\n"); //Single line comment
+    return 0;
 }
