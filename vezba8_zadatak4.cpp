@@ -12,10 +12,10 @@ Standard: C++ 17
 #define MAX_ARR_LENGTH 20
 
 int main(int argc, const char *argv[]) {
-	int arr[MAX_ARR_LENGTH];
+	float arr[MAX_ARR_LENGTH];
 	int i, j, num, temp;
 	num = 0;
-	printf("\nEnter no of array elements: ");
+	printf("Enter no of array elements: ");
 	scanf("%d", &num);
 
 	if (num == 0) {
@@ -31,7 +31,7 @@ int main(int argc, const char *argv[]) {
 	//Read elements in an array
 	for (i = 0; i < num; i++) {
 		printf("Array element %d : ", i + 1);
-		scanf("%d", &arr[i]);
+		scanf("%f", &arr[i]);
 	}
 
 	j = i - 1;   // j will Point to last Element
@@ -49,8 +49,8 @@ int main(int argc, const char *argv[]) {
 	//Print out the Result
 	printf("\nResult after reversal : \n");
 	for (i = 0; i < num; i++) {
-		printf("Array element %d: %d\n", i + 1, arr[i]);
+		printf("Array element %d: %f\n", i + 1, arr[i]);
 	}
-
+	
 	return (0);
 }
