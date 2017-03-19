@@ -29,7 +29,7 @@ char *readCli(int* bufferSize) {
 	enterEater = getchar();
 	char c; int i = 0;
 	while ((c = fgetc(stdin)) != '\n') {
-		if (i > 100) {
+		if (i > 30) {
 			buffer = (char*)realloc(buffer, (size_b * 2) * sizeof(char));
 			if (buffer == NULL) { exit(3); }
 		}
