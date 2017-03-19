@@ -21,7 +21,7 @@ char *readCli(int* bufferSize) {
 	if (buffer == NULL) { exit(1); }
 	char c; int i = 0;
 	while ((c = fgetc(stdin)) != '\n') {
-		if ((i % 40) == 0) {
+		if (((i % 40) == 0) && i != 0) {
 			buffer = (char*)realloc(buffer, (size_b * 2) * sizeof(char));
 			if (buffer == NULL) { exit(3); }
 		}
