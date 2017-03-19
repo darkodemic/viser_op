@@ -11,7 +11,7 @@ Za build je potreban compiler koji ima podrsku za C99 ili navise. Sem toga sve b
 Binary file-ovi su compile-ovani za x86-64 sisteme (64bit) i nece raditi na x86 sistemima. 
 Windows binary file-ovi (.exe) imaju izmenu da im je dodat system("pause"); na kraj kako bi consola ostala otvorena da bi se jasnije video rezultat. 
 
-Linux bin file-ovi nisu dodati jer nema potrebe za njima trenutno ako neko zelis neka napravi issue i dodacu ih.
+Linux bin file-ovi nisu dodati jer nema potrebe za njima trenutno ako neko zeli neka napravi issue i dodacu ih.
 
 Licence GPL3
 
