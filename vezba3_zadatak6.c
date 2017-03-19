@@ -3,7 +3,8 @@ Vezba: 3
 Zadatak: 6
 Dev: Darko Demic
 Built using: GCC 7.0 on Arch Linux
-Standard: C++ 17
+Standard: C11
+Flags: -Wextra, -Wall, -Wfloat-equal, -O3, -ftrapv
 */
 
 #include <stdio.h>
