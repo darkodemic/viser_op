@@ -18,7 +18,7 @@ int removeNthElem(int *arr, int *arrnew, int num) {
 	int removed = 0;
 	int j = 0;
 	for (int i = 0; i < num; i++) {
-		if ((i % 2) == 1) {			
+		if ((i % 2) == 1) {
 			removed++; //brojimo koliko elemenata smo izbrisali. tj. koliko drugih elemenata imamo.
 		}
 		if ((i % 2) == 0) {
@@ -35,9 +35,9 @@ void fillWithZeros(int removed, int *arrnew, int num) {
 }
 
 int main(int argc, const char *argv[]) {
-	
+
 	int num, temp, arr[MAX_ARR_LENGTH];
-	
+
 	printf("Enter array length: ");
 	scanf("%d", &num);
 	if (num > MAX_ARR_LENGTH) {
@@ -45,7 +45,7 @@ int main(int argc, const char *argv[]) {
 		exit(1);
 	}
 	for (int i = 0; i < num; i++) {
-		printf("Array element %d: ", i);
+		printf("Array element %d: ", i+1);
 		scanf("%d", &arr[i]);
 	}
 	//Array stored
@@ -55,10 +55,11 @@ int main(int argc, const char *argv[]) {
 
 	fillWithZeros(removed, arrnew, num);
 
-	printf("%d\n", removed);
-	for (int i = 0; i < num; i++) {
-		printf("Array element %d: %d \n", i, arrnew[i]);
-	}
+	printf("\nPerformed removal.\n\n");
 
+	for (int i = 0; i < num; i++) {
+		printf("Array element %d: %d \n", i+1, arrnew[i]);
+	}
+	
 	return (0);
 }
