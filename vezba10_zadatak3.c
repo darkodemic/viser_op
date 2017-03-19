@@ -100,6 +100,5 @@ int main(int argc, const char *argv[]) {
 	else {
 		makeTriangle(symbol);
 	}
-	system("pause");
 	return (0);
 }
