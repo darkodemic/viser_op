@@ -59,9 +59,9 @@ char findFirstSymbol(char *text, int length) {
 
 void makeTriangle(char symbol) {
 	printf("Triangle align (Left - L/l | Right: R/r): ");
-	char alignPyramide = 'L'; //Pretpostavljamo da je jedno ako korisnik samo pritisne enter
-	scanf("%c", &alignPyramide);
-	if (alignPyramide == 'L' || alignPyramide == 'l') {
+	char alignTriangle = 'L'; //Pretpostavljamo da je jedno ako korisnik samo pritisne enter
+	scanf("%c", &alignTriangle);
+	if (alignTriangle == 'L' || alignTriangle == 'l') {
 		//Align Left or default align
 		int j = 1;
 		for (int i = 1; i <= 10; i++) { //Idemo za svaki red. deset redova imamo
@@ -74,7 +74,7 @@ void makeTriangle(char symbol) {
 		}
 		
 	}
-	if (alignPyramide == 'R' || alignPyramide == 'r') {
+	if (alignTriangle == 'R' || alignTriangle == 'r') {
 		//Align Right
 		
 		for (int i = 1; i <= 10; i++) {
