@@ -73,11 +73,11 @@ int main(int argc, const char *argv[]) {
     printf("-------------------------------------------\n"
     "Average grade is : %f\n"
     "Number of students with 10: %d\n"
-    "Number of students with 9: %d\n"
-    "Number of students with 8: %d\n"
-    "Number of students with 7: %d\n"
-    "Number of students with 6: %d\n"
-    "Number of students with 5: %d\n",averageGrade,desetke,devetke,osmice,sedmice,sestice,petice);
+    "Number of students with  9: %d\n"
+    "Number of students with  8: %d\n"
+    "Number of students with  7: %d\n"
+    "Number of students with  6: %d\n"
+    "Number of students with  5: %d\n",averageGrade,desetke,devetke,osmice,sedmice,sestice,petice);
     
     return 0;
 }
