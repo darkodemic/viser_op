@@ -17,7 +17,7 @@ int main(int argc, const char *argv[]) {
     //Added casting so operation would be performed as float not as int.
     //Some optimization toolchains perform operation based on member types not final type
     float c = ((float)(a) + b) / 2;
-    printf("Arithmetic mean:\nAs real number: %f\nAs Integer: %d",c, (int)(c));
+    printf("Arithmetic mean:\nAs real number: %f\nAs Integer: %d\n",c, (int)(c));
     
     return 0;
 }
