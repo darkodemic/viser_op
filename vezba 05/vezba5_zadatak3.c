@@ -4,7 +4,7 @@ Zadatak: 3
 Dev: Darko Demic
 Built using: GCC 7.0 on Arch Linux
 Standard: C11
-Flags: -Wextra, -Wall, -Wfloat-equal, -O3, -ftrapv
+Flags: -Wextra, -Wall, -Wfloat-equal, -O3, -ftrapv, -lm
 */
 
 #include <stdio.h>
