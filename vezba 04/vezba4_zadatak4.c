@@ -20,7 +20,7 @@ int main(int argc, const char *argv[]) {
 		if (temp > max) {
 			max = temp;
 		}
-		else if (temp < min) {
+		else if (temp < min || min == 0) {
 			min = temp;
 		}
 	}
